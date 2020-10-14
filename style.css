@@ -1,0 +1,53 @@
+
+header h1 {
+    color: #28b6b8;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+header {
+    text-align: center;
+    color: #898f99;
+}
+
+header p {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+header h3 {
+    font-weight: 300;
+}
+
+section {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+}
+section p {
+    color: #898f99;
+    text-align: center;
+    line-height: 2;
+    padding: 25px;
+}
+
+.main {
+    text-align: center;
+}
+.img1 {
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.block2:hover {
+    background-color: #28b6b8;
+    color: white;
+    transition: all .2s ease-in;
+
+}
+.block2 p:hover {
+    color:white;
+    transition: all .2s ease-in;
+}
