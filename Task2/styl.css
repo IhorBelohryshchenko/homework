@@ -75,7 +75,6 @@ footer {
     font-family: Lucida Sans Unicode, sans-serif;
 }
 
-.list:hover {
-    opacity: 0.4;
-    transition: all .3s ease-in;
+ul:hover li:not(:hover) {
+    opacity: 0.5;
 }
