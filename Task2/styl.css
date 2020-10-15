@@ -1,0 +1,81 @@
+body {
+    background-color: #3399CC;
+    padding: 0 250px;
+    
+}
+header {
+    color: white;
+    font-family: Lucida Sans Unicode, sans-serif;
+
+}
+.list {
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+    font-family: Lucida Grande, sans-serif;
+    padding-left: 0;
+    border: 1px solid white;
+}
+
+.list li {
+    font-size: 24px;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    box-sizing: border-box;
+    border: 3px solid white;
+}
+
+.list li:nth-child(1) {
+    width:50%;
+    background-color: #3399CC;
+}
+.list li:nth-child(2) {
+    width:25%;
+    background-color: #33CCCC;
+}
+.list li:nth-child(3) {
+    width:25%;
+    background-color: #996699;
+}
+.list li:nth-child(4) {
+    width:25%;
+    background-color: #C24747;
+}
+.list li:nth-child(5) {
+    width:25%;
+    background-color: #E2674A;
+}
+.list li:nth-child(6) {
+    width:25%;
+    background-color: #FFCC66;
+}
+.list li:nth-child(7) {
+    width:25%;
+    background-color: #99CC99;
+}
+.list li:nth-child(8) {
+    width:25%;
+    background-color: #669999;
+}
+.list li:nth-child(9) {
+    width:50%;
+    background-color: #CC6699;
+}
+.list li:nth-child(10) {
+    width:25%;
+    background-color: #349966;
+}
+.list li:nth-child(11) {
+    width:100%;
+    background-color: #666699;
+}
+footer {
+    color: white;
+    font-family: Lucida Sans Unicode, sans-serif;
+}
+
+.list:hover {
+    opacity: 0.4;
+    transition: all .3s ease-in;
+}
