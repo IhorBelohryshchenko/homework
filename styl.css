@@ -1,0 +1,93 @@
+body {
+    background-color: #464f54;
+}
+
+header {
+    position: absolute;
+    right: 0;
+    margin-top: -50px;
+}
+.block1 {
+    background-color: #181818;
+    color: white;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h1.palka {
+    border-right: 1px solid white;
+}
+
+.block1 p {
+    color: #777777;
+    margin-bottom: -20px;
+    letter-spacing: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.line {
+    border-bottom: 2px solid #303030;
+    margin-top: -15px;
+}
+
+nav {
+    background-color: #f9bf2d;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    padding-left: 40px;
+}
+
+main {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    background-color: white;
+}
+
+.art {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    border-left: 2px solid #e8eced;
+    margin-left: 50px;
+}
+
+.author {
+    color: #dcdcdc;
+    letter-spacing: 0.3em;
+    margin-bottom: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.questions {
+    color: #8f8f8f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -40px;
+    font-style: italic;
+}
+
+span {
+    font-style: italic;
+}
+
+.text {
+    text-align: left;
+    padding-right: 50px;
+    font-size: 18px;
+}
